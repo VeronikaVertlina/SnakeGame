@@ -2,9 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>SnakeGame</title>
+    <title>Snake Game</title>
+    <style>
+      #snakeboard {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
-    <canvas id="gameCanvas" width="300" height="300"></canvas>
+    <canvas id="snakeboard" width="400" height="400"></canvas>
+
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
